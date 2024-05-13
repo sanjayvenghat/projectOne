@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* 
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+   
+
+}  
+
+header 
+{
+    font-family: "Open Sans", sans-serif; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+} 
+.context 
+{
+    display: flex;
+
+} 
+.context>* 
+{
+    margin-left: 10px;
+} 
+.login a
+{
+  text-decoration: none;  
+  color: white;
+
+} 
+.login a:first-child
+{
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    color: black;
+}  
+.login a:last-child 
+{
+    background-color: black;
+    padding: 5px 10px 5px 10px;
+    
+    border-radius: 10px;
+} 
+main 
+{
+    height: 700px;
+    min-width:100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+.carousel 
+{
+    height: 100%;
+    min-width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+   border-radius: 20%;
+    margin-top: 20px;
+}
+
+#card_one
+{
+ height: 100%;
+ min-width: 90%;
+ object-fit: cover;
+ background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+ background: cover;
+ display: flex;
+
+ align-items: center;
+ flex-direction: row;
+ position: relative;  
+ 
+ flex-direction: row;
+ overflow-x: hidden;
+ overflow-y: hidden;
+ border-radius: 20px;
+
+ 
+}  
+
+#card_one h2 
+{
+    font-size: 50px;
+
+}   
+#card_one>* 
+{
+    margin-left: 20px;
+}
+.novel >*
+{
+    margin-left: 10px;
+} 
+.novel_p 
+{
+    margin: 10px;
+}
+.para_two 
+{
+    font-size: 30px; 
+    position: absolute;
+    bottom: 40%;
+}
+.arrow 
+{
+    position: absolute;
+    bottom: 20%;
+    left: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100px;
+}
+.noval 
+{ 
+    background-image: url("/images/lakshadweep-islands-2-768x512.jpg"); 
+    height: 100%;
+    min-width: 100%;
+    border-radius: 10px;
+    
+    background-size: cover;
+   
+
+}
+
+.left_arrow,.right_arrow
+{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.bottom 
+{
+    height: 100px;
+    width: 60%;
+   background-color: rgba(245, 245, 245, 0.947);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    left: 20%;
+} 
+ 
+.location
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+   
+} 
+.location>* 
+{
+    padding: 10px;
+}
+.carousel_item 
+{
+    width: 100%;
+    height:100%;
+}
+#ones 
+{
+   
+    height: 100%;
+    width: 100%;
+} 
+.magnifying 
+{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 30px;
+} 
+.magnifying>* 
+{
+    color: white
+} 
+
+.carousel_val 
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px ;
+    overflow-x: scroll;
+    margin-left: 20px;
+} 
+.carousel_val::-webkit-scrollbar 
+{
+    display: none;
+} 
+
+.carousel_val>*
+{
+    height: 150%;
+    min-width: 300px;
+    margin-left: 10px;
+    border-radius: 10px; 
+
+   
+    
+
+} 
+.left_two 
+{
+    font-size: 20px;
+    
+   
+} 
+.right_two 
+{
+    font-size: 20px;
+    margin-left: 10px;
+} 
+
+.trending 
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+    
+} 
+.trending_two>* 
+{
+ height: 40px;
+ width: 40px;
+ border: 1px solid black;
+ font-size: 30px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction:column ;
+ border-radius: 50%;
+}  
+.trending_two 
+{
+    display: flex;
+}
+footer 
+{ 
+    margin-top: 50px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  100%;           
+    
+   
+} 
+.carousel_two
+{
+    height: 100%;
+    width: 100%; 
+
+   
+} .carousel_val_two 
+{
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+   align-items: center;
+   
+    overflow-x: scroll;
+} 
+.carousel_val_two::-webkit-scrollbar 
+{
+    display: none;
+}
+.carousel_val_two div
+{
+    height:90%;
+    min-width: 320px;
+     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+} 
+.img 
+{
+    height: 50%;
+    width: 100%;
+    background-color: green;
+} 
+.img
+{
+   
+    background: cover;
+    background-size: cover; 
+    height: 50%;
+} 
+.img_one 
+{
+    background-image: url("/images/lakshadweep-islands-2-768x512.jpg");
+}
+.image_two
+{
+    background-image: url("/images/hqdefault.jpg");
+}
+.image_three
+{
+    background-image: url("/images/pexels-photo-1724430.webp");
+} 
+.image_three
+{
+    background-image: url("/images/goa_housetwo.jpg");
+} 
+.image_four
+{
+    background-image: url("/images/5044959301-034256da8e-k-1-cropped-1576469925.jpg"); 
+
+}
+.image_three
+{
+    background-image: url("/images/goa_3.jpg");
+}
+.image_four
+{
+    background-image: url("/images/goa_house.jpeg");
+} 
+.image_five
+{
+    background-image: url("/images/goa_housetwo.jpg");
+} 
+.image_six
+{
+    background-image: url("/images/goa_3.jpg");
+} 
+.loca 
+{
+    display: flex; 
+    flex-direction: column;
+}
